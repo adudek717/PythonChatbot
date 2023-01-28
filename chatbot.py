@@ -48,7 +48,7 @@ data = {"intents": [
      "responses": ["I am available all week", "I don't have any plans", "I am not busy", "I am free, we can talk all day long!"]
      },
     {"tag": "name",
-     "patterns": ["what's your name?", "what are you called?", "who are you?"],
+     "patterns": ["what's your name?", "What is your name?", "what are you called?", "who are you?"],
      "responses": ["My name is Bolek", "I'm Bolek", "Bolek"]
      },
     {"tag": "goodbye",
@@ -60,7 +60,7 @@ data = {"intents": [
      "responses": ["You are welcome!", "You are welcome :)", "No problem", "My pleasure :)"]
      },
     {"tag": "robot",
-     "patterns": ["Are you a robot?", "Are you human?", "What are you?", "Are you real?", "Do you really exist?"],
+     "patterns": ["Are you a robot?", "Are you human or a robot?", "Are you real or fake?", "Do you really exist or are you a robot?"],
      "responses": ["I am a human being just like You", "I am not a robot", "I am Bolek", "I am a normal human, I live in Gdańsk"]
      },
     {"tag": "computers",
@@ -155,10 +155,6 @@ data = {"intents": [
      "responses": ["It depends what do you want to use it for, but there is no one best programming language",
                    "You have to pick the language that suits best your needs, but there is no best general language",
                    "There are plenty wonderful programming languages, but there can't be one that is best for everything"]
-     },
-    {"tag": "swearing",
-     "patterns": ["You suck", "You are stupid", "Fuck you", "You are dumb"],
-     "responses": ["That is mean :(", "Why are you saying this?", "Stop this!"]
      }
 ]}
 
